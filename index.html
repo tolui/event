@@ -50,8 +50,12 @@
 </head>
 
 <body>
-    <embed src="static/extra/music.mp3" width="180" height="90" loop="true" autostart="true" hidden="true" />
-    <audio autoplay loop src="static/extra/music.mp3">
+    <!-- <audio autoplay loop src="static/extra/music.mp3">
+        <embed src="static/extra/music.mp3" width="180" height="90" loop="true" autostart="true" hidden="true" />
+    </audio> -->
+    <audio autoplay loop>
+        <source src="static/extra/music.mp3" type="audio/ogg">
+        <embed src="static/extra/music.mp3" autostart="true" loop="true" hidden="true"> 
     </audio>
     <div class="page-overlay">
         <!-- Preloader -->
