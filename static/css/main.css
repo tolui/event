@@ -71,7 +71,7 @@ body {
 body {
     font-family: "Poppins";
     color: #69655a;
-	background-image: url("/static/extra/bg.jpg");
+	background-image: url("static/extra/bg.jpg");
 	background-repeat:no-repeat;
 	background-size: cover;
     background-color: #4969ad;
